@@ -55,3 +55,32 @@ Backups.backupdb
 .MobileBackups.trash
 MobileBackups.trash
 tmbootpicker.efi
+
+# linux
+# Linux temporary and backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Hidden files and folders
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs
+*.log
+nohup.out
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+.DS_Store
+Thumbs.db
